@@ -1,0 +1,80 @@
+{
+  "display": {
+    "title": "Halloween Huntdown",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "dzsunyec",
+    "email": "bence@decentraland.org"
+  },
+  "owner": "",
+  "scene": {
+    "parcels": [
+
+      "-27,72",
+      "-27,73",
+      "-27,74",
+      "-27,75",
+      "-27,76",
+
+      "-26,72",
+      "-26,73",
+      "-26,74",
+      "-26,75",
+      "-26,76",
+
+      "-25,72",
+      "-25,73",
+      "-25,74",
+      "-25,75",
+      "-25,76",
+
+      "-24,72",
+      "-24,73",
+      "-24,74",
+      "-24,75",
+      "-24,76",
+
+      "-23,72",
+      "-23,73",
+      "-23,74",
+      "-23,75",
+      "-23,76"
+
+   
+      
+    ],
+    "base": "-27,72"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "requiredPermissions": [
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 40
+      },
+      "cameraTarget": {
+        "x": 40,
+        "y": 1,
+        "z": 40
+      }
+    }
+  ]
+}
