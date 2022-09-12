@@ -62,7 +62,7 @@ export function addNPCs() {
       portrait: { path: 'images/portraits/creep.png', height: 128, width: 128 },
       reactDistance: 5,
       faceUser: false,
-      onlyETrigger: true
+      onlyExternalTrigger: true
     }
   )
 
@@ -196,7 +196,7 @@ export function addNPCs() {
       reactDistance: 4,
       idleAnim: `Weight_Shift`,
       faceUser: true,
-      onlyETrigger: false
+      onlyExternalTrigger: false
     }
 
   )
@@ -231,7 +231,7 @@ export function addNPCs() {
       reactDistance: 4,
       idleAnim: `Idle_001`,
       faceUser: false,
-      onlyETrigger: true
+      onlyExternalTrigger: true
     }
   )
 
@@ -263,7 +263,7 @@ export function addNPCs() {
       reactDistance: 4,
       idleAnim: `Weight_Shift_Armature`,
       faceUser: false,
-      onlyETrigger: true
+      onlyExternalTrigger: true
     }
 
   )
